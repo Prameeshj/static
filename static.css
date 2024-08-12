@@ -1,0 +1,247 @@
+*{
+   background-color: rgb(230, 162, 131);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.car{
+ padding-top: 50px;
+ padding-left: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: darkslategray;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo{
+   
+    width: 150px;
+}
+.listItems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    
+}
+.links{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: 600px;
+}
+.links:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+.homeContents{
+    margin: 13% 0px 0px 8%;
+
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#lname{
+    font-family: fantasy;
+    /* color: rgb(200, 171, 7); */
+}
+#Userdetails{
+    line-height: 1.2;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+ .homeImages{
+    width: 50%;
+    height: 75%;
+    position: absolute; 
+    right: 30px;
+    bottom: 0px;
+} 
+
+/* about */
+
+#about{
+    margin: 25% 8% 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+    
+}
+.mainhead{margin-top: 20px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.subhead{
+    font-size: 20px;
+    color: rgb(39, 75, 79);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutbody{
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 50px;
+   align-items: center;
+ }
+ .img1{
+    width: 100%;
+ }
+ .aboutcontent{
+    font-size: 20px;
+    text-align: justify;
+ }
+ .information{
+    margin-top: 2rem;
+    font-family: cursive;
+   margin-bottom: 10px; 
+ }
+ .infobox{
+   margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(74, 17, 11);
+ }
+ #skill{
+    margin: 8% 8% 0px 8%;
+ }
+ .skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+ }
+ .skillimage{
+   margin-top: 1.3rem;
+   margin-left: 1.3rem;
+ }
+ .bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem ;
+ }
+
+ 
+ .barhead,.barpercent{
+    font-weight: 500;
+    font-size: 1.3rem;
+ }
+ .basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+ }
+ .htmlbar{
+    background-color: rgb(68, 82, 29);
+    width: 97%;
+ }
+ .cssbar{
+    background-color: rgb(68, 82, 29);
+    width: 98%;
+ }
+ .jsbar{
+    background-color: rgb(68, 82, 29);
+    width: 99%;
+ }
+ .reactbar{
+    background-color:rgb(68, 82, 29);
+    width: 96%;
+ }
+ .img2{
+   height: 300px;
+   width: 450px;
+   border: 2px; 
+ }
+ .collections{
+   display: flex;
+    justify-items:center; 
+   align-items: center;
+   margin-top: 2rem;
+   border: solid 2px;
+ }
+ .cname{
+   color: rgb(3, 3, 3);
+   font-family: cursive;
+ }
+ #contact{
+    margin: 10% 8% 0px 8%;
+ }
+ .iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+ }
+ .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+ }
+ .brands{
+    color: black;
+    font-size: 2rem;
+ }
+ .icon:hover{
+    /* color combining */
+    background-image: linear-gradient(to bottom right,);
+ }
+ .icon:hover .brands{
+    color: white;
+    /* animation */
+    animation: rotate 3s;
+ }
+
+ footer{
+    margin-top: 8%;
+ }
+ #copyright{
+   text-align: center;
+   color: darkolivegreen;
+    font-weight: 300;
+    font-family: cursive;
+ }
+ .uparrow{
+    float: right;
+    margin: -30px 20px 40px 0px;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+ }
+ ::-webkit-scrollbar-track{
+    
+ }
+ ::-webkit-scrollbar-thumb{
+    
+    border-radius: 10px;
+ } 
